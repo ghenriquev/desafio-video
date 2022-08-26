@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio | Vídeo - Controle</title>
+</head>
+<body>
+    <div class="container">
+        <video src="./assets/Video-ProgramadorBR.mp4" class="video" id="video1"></video>
+
+        <div class="controle">
+            <img src="./assets/play-button.png" id="play" onclick="play()">
+            <img src="./assets/stop.png" id="stop" onclick="stop()">
+            <img src="./assets/add.png" id="increase" onclick="aumentar()">
+            <img src="./assets/remove.png" id="decrease" onclick="diminuir()">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
